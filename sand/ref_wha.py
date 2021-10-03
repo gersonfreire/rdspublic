@@ -3,7 +3,6 @@
 """
 Integração https://panel.capiwha.com/
 gmail
-gersonfaf61
 """
 
 # //https://panel.capiwha.com/page_api.php

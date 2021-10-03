@@ -642,37 +642,37 @@ def unit_test():
     )                
     
     # Testa alteração de usuário pelo id do bot
-    rd_user = get_user_by_tlg_id(str(713232749), user_list=all_rd_users)    
+    rd_user = get_user_by_tlg_id(str(913232747), user_list=all_rd_users)    
     if rd_user:    
         updated_user = upd_contact_by_id(
             contact_id=rd_user['id']
             ,contact_name=rd_user['name']
             ,organization_id=rd_user['organization_id']
             ,contact_title='CTO'
-            ,chat_id=str(713232749)
+            ,chat_id=str(913232747)
             )
     else:
-        new_user = add_rd_user('Gerson Teste @GersonSmartMonit', 
+        new_user = add_rd_user('Teste @teste', 
             custom_field_id= '614894fb053b7e0020f3b00b', 
             chat_custom_field_id = '5ec6d14cf02baf002e208aee',
-            chat_id=str(713232749))             
+            chat_id=str(913232747))             
      
     # Testa alteração de usuário pelo telefone do bot
-    rd_user = get_user_by_phone(str(27996080356), user_list=all_rd_users)    
+    rd_user = get_user_by_phone(str(67996080352), user_list=all_rd_users)    
     if rd_user:    
         updated_user = upd_contact_by_id(
             contact_id=rd_user['id']
             ,contact_name=rd_user['name']
-            ,contact_phone=str(27996080356)
+            ,contact_phone=str(67996080352)
             ,organization_id=rd_user['organization_id']
             ,contact_title='CTO'
-            ,chat_id=str(438429121)
+            ,chat_id=str(1384291214)
             )
     else:
-        new_user = add_rd_user('Gerson Freire de Amorim Filho', 
+        new_user = add_rd_user('Jonh Doe', 
             custom_field_id= '614894fb053b7e0020f3b00b', 
             chat_custom_field_id = '5ec6d14cf02baf002e208aee',
-            chat_id=str(438429121))             
+            chat_id=str(1384291214))             
         
     # TODO: Sincroniza usuários do Bot a partir do RD 
     

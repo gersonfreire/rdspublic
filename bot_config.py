@@ -199,7 +199,6 @@ ZAP_STATUS = False
 SMS_STATUS = False
 
 # Filtro de assunto de monitoramento de email
-# default_subject_filter = 'Alarmes SmartMonit' # assunto padrão
 default_subject_filter = None 
 
 # Filtro de linhas de alarme a serem omitidas
