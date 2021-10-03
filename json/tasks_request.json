@@ -1,0 +1,9 @@
+// Estrutura em JSON da requisição: 
+{
+    "token": "MY_TOKEN",
+    "activity": {
+        "user_id": "Código do usuário",
+        "text": "Texto da anotação",
+        "deal_id": "Código da oportunidade"
+    }
+}

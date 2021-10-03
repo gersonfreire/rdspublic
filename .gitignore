@@ -1,0 +1,13 @@
+geckodriver.log
+launch.json
+nohup.out
+*.db
+*.exe
+*.chat
+*.properties
+trackfreeze.py
+utilconfig.py
+ref.py
+tutorial_alchemy*.py
+menus_smart_web.py
+menus\menus_smart_web.py
