@@ -4,4 +4,4 @@
 
 RDStation CRM Telegram Bot
 
-View sample bot : @RDStationCRMBot
+View sample bot : @RDStationCRMBot https://t.me/RDStationCRMBot
